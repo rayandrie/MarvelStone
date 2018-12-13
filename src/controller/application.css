@@ -1,0 +1,148 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.player {
+	-fx-border-color: #1909C7;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+}
+
+.opponent {
+	-fx-border-color: #DF8601;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+}
+
+.deck {
+	-fx-border-color: #FEF848;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+}
+
+.vboxBorder {
+	-fx-border-color: black;
+    -fx-border-insets: 5;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+}
+
+.popup {
+    -fx-background-color: #FFFB28;
+    -fx-background-radius:0;
+    -fx-background-insets: 0;
+}
+
+.card {
+	-fx-background-radius: 5;
+}
+
+.heroLabels {
+	-fx-text-fill: #21EE0B;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+}
+
+.villainLabels {
+	-fx-text-fill: red;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#33EA1F, #1FA710);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#1FA710, #33EA1F);
+}
+
+#homeView {
+	-fx-background-image: url("/backgrounds/homeView.jpg");
+	-fx-background-size: cover;
+}
+
+#gameView {
+	-fx-background-image: url("/backgrounds/gameView.jpg");
+	-fx-background-size: cover;	
+}
+
+#winView {
+	-fx-background-image: url("/backgrounds/deadpool.jpg");
+	-fx-background-size: cover;	
+}
+
+/* Start View */
+
+#startView {
+	-fx-background-image: url("/backgrounds/marvel.jpg");
+	-fx-background-size: cover;
+}
+
+.mainTitle {
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-size: 69px;
+    -fx-font-family: "Courier New";
+}
+
+/* Home View */
+
+#statsLabel {
+	-fx-font-weight: bold;
+	-fx-border-color: black;
+    -fx-background-color: blue;
+    -fx-text-fill: red;
+    -fx-font-size: 25px;
+    -fx-font-family: "Courier New";
+}
+
+.winLabel {
+	-fx-font-weight: bold;
+    -fx-text-fill: #33EA1F;
+    -fx-font-size: 25px;
+    -fx-font-family: "Courier New";
+}
+
+.loseLabel {
+	-fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-size: 25px;
+    -fx-font-family: "Courier New";
+}
+
+.title {
+    -fx-font-weight: bold;
+    -fx-border-color: blue;
+    -fx-background-color: red;
+    -fx-text-fill: #1D1DDB;
+    -fx-font-size: 32px;
+    -fx-font-family: "Courier New";
+}
+
+.homeLabel {
+	-fx-font-weight: bold;
+    -fx-border-color: red;
+    -fx-background-color: blue;
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+    -fx-font-family: "Courier New";
+}
+
+.middle {
+	-fx-border-color: red;
+    -fx-background-color: blue;
+}
+
+.midLabels {
+	-fx-text-fill: red;
+}
+
+.midBox {
+	-fx-font-weight: bold;
+	-fx-border-color: red;
+    -fx-background-color: blue;
+    -fx-font-size: 20px;
+    -fx-font-family: "Courier New";
+}
